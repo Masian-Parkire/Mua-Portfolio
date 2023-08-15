@@ -14,7 +14,7 @@ export default function Hero() {
         </p>
       </div>
       <div className="pb-4">
-        <p className="text-white text-3xl lg:text-[70px] font-normal leading-relaxed tracking-[12.60px] font-oswald">
+        <p className="text-white text-3xl md:text-[70px] font-normal leading-relaxed tracking-[12.60px] font-oswald">
           IAN KIITHYA
         </p>
       </div>

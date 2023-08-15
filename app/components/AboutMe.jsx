@@ -58,6 +58,7 @@ export default function AboutMe() {
           </div>
         </div>
       </div>
+      <Divider className=" bg-light-salmon-pink "  orientation="vertical" />
     </section>
   );
 }

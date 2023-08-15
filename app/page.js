@@ -1,8 +1,10 @@
 "use client";
 
+import { Divider } from "@nextui-org/react";
 import AboutMe from "./components/AboutMe";
 import Hero from "./components/Hero";
 import Navbar from "./components/Navbar";
+import Services from "./components/Services";
 
 export default function Home() {
   return (
@@ -15,8 +17,10 @@ export default function Home() {
           <Navbar />
           <Hero />
         </div>
+       
       </section>
       <AboutMe />
+      <Services/>
     </main>
   );
 }
