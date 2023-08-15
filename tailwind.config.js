@@ -1,18 +1,28 @@
 /** @type {import('tailwindcss').Config} */
+// tailwind.config.js
+const { nextui } = require("@nextui-org/react");
 module.exports = {
   content: [
+
     './pages/**/*.{js,ts,jsx,tsx,mdx}',
     './components/**/*.{js,ts,jsx,tsx,mdx}',
     './app/**/*.{js,ts,jsx,tsx,mdx}',
+    './node_modules/@nextui-org/theme/dist/**/*.{js,ts,jsx,tsx}'
   ],
   theme: {
     extend: {
-      backgroundImage: {
-        'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
-        'gradient-conic':
-          'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
+        fontFamily: {
+        didact: ['Didact Gothic', "sans-serif"],
+        oswald: ["Oswald", "sans-serif"],
+      },
+      colors: {
+        "light-salmon-pink": "#FF9999",
+        white: "#FFF5F5",
+        black: "#1A0F0F",
+        gray: "#BBBBBB",
       },
     },
   },
-  plugins: [],
+  darkMode: "class",
+  plugins: [nextui()],
 }
