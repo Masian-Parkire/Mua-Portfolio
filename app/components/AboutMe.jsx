@@ -4,11 +4,11 @@ import React from "react";
 
 export default function AboutMe() {
   return (
-    <section className="  bg-white py-3 lg:py-[100px]">
+    <section className="  bg-white py-2 lg:py-[100px]">
       <div className="container mx-auto">
-        <div className="grid grid-cols-1 lg:grid-cols-2 px-2">
+        <div className="grid grid-cols-1 lg:grid-cols-2 px-2 items-center">
           <div className="cols-span-5">
-            <Image src="/aboutme.jpg" width={450} height={500} alt="kiithya" />
+            <Image src="/aboutme.jpg" width={550} height={500} alt="kiithya" className="max-lg:w-full" />
           </div>
           <div className="cols-span-7 
         pt-2 lg:pt-0">

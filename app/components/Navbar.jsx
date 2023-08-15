@@ -5,7 +5,7 @@ function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <nav className="flex items-center justify-between flex-wrap pt-[44px] container mx-auto pl-4 lg:pl-0 text-white">
+    <nav className="flex items-center justify-between flex-wrap pt-[44px] container mx-auto pl-4 lg:pl-0 text-white ">
       <div className="flex items-center flex-shrink-0 text-white mr-6 lg:mr-72">
         <p className="first-letter:text-3xl first-letter:font-bold first-letter:text-white tracking-widest font-oswald text-2xl">
           Kiithya

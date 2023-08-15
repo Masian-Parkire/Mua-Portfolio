@@ -7,7 +7,6 @@ import Navbar from "./components/Navbar";
 export default function Home() {
   return (
     <main className="bg-white">
-    
       <section className="bg-[url(/hero.jpg)]  bg-center h-screen bg-no-repeat bg-cover">
         <div
           className="w-full h-full
@@ -15,7 +14,6 @@ export default function Home() {
         >
           <Navbar />
           <Hero />
-         
         </div>
       </section>
       <AboutMe />
