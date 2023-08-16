@@ -6,7 +6,7 @@ import Link from "next/link";
 
 export default function Services() {
   return (
-    <section className="bg-[#F0F0F0] py-2 lg:py-[100px]">
+    <section className="bg-[#F0F0F0] py-2 lg:pt-[100px]">
       <div className="container mx-auto">
         <div className="pl-2 lg:pl-0">
           <div className="pb-2">
@@ -24,44 +24,9 @@ export default function Services() {
           </div>
         </div>
 
-        <Carousel className="h-screen ">
-          <div className="grid grid-cols-2 gap-6 pb-2">
-            <div className="relative flex justify-center">
-              <Link
-                className="w-[80%] bg-white font-didact flex items-center py-8 px-4 absolute -bottom-10 z-10 transition-transform duration-300 transform hover:-translate-y-12"
-                href=""
-              >
-                Eye Shadow
-              </Link>
-              <div className="relative overflow-hidden w-full">
-                <Image
-                  src={"/imageone.png"}
-                  alt="eyeshadow"
-                  width={400}
-                  height={500}
-                  className="w-full h-full lg:h-[40rem] object-cover z-0 transition-transform duration-300 transform hover:scale-105"
-                />
-              </div>
-            </div>
-            <div className="relative flex justify-center">
-              <Link
-                className="w-[80%] bg-white font-didact flex items-center py-8 px-4 absolute -bottom-10 z-10 transition-transform duration-300 transform hover:-translate-y-12"
-                href=""
-              >
-                Face Makeup
-              </Link>
-              <div className="relative overflow-hidden w-full">
-                <Image
-                  src={"/imagetwo.png"}
-                  alt="eyeshadow"
-                  width={400}
-                  height={500}
-                  className="w-full h-full lg:h-[40rem] object-cover z-0 transition-transform duration-300 transform hover:scale-105"
-                />
-              </div>
-            </div>
-          </div>
-          <div className="grid grid-cols-2 gap-6 pb-10">
+        <Carousel className="h-screen">
+        {/* I/tem 1 */}
+        <div className="grid grid-cols-2 gap-6">
             <div className="relative flex justify-center">
               <Link
                 className="w-[80%] bg-white font-didact flex items-center py-8 px-4 absolute -bottom-10 z-10 transition-transform duration-300 transform hover:-translate-y-12"
@@ -97,7 +62,46 @@ export default function Services() {
               </div>
             </div>
           </div>
-          <div className="grid grid-cols-2 gap-6 pb-10">
+          {/* Item 2 */}
+          <div className="grid grid-cols-2 gap-6 ">
+            <div className="relative flex justify-center">
+              <Link
+                className="w-[80%] bg-white font-didact flex items-center py-8 px-4 absolute -bottom-10 z-10 transition-transform duration-300 transform hover:-translate-y-12"
+                href=""
+              >
+                Eye Shadow
+              </Link>
+              <div className="relative overflow-hidden w-full">
+                <Image
+                  src={"/imageone.png"}
+                  alt="eyeshadow"
+                  width={400}
+                  height={500}
+                  className="w-full h-full lg:h-[40rem] object-cover z-0 transition-transform duration-300 transform hover:scale-105"
+                />
+              </div>
+            </div>
+            <div className="relative flex justify-center">
+              <Link
+                className="w-[80%] bg-white font-didact flex items-center py-8 px-4 absolute -bottom-10 z-10 transition-transform duration-300 transform hover:-translate-y-12"
+                href=""
+              >
+                Face Makeup
+              </Link>
+              <div className="relative overflow-hidden w-full">
+                <Image
+                  src={"/imagetwo.png"}
+                  alt="eyeshadow"
+                  width={400}
+                  height={500}
+                  className="w-full h-full lg:h-[40rem] object-cover z-0 transition-transform duration-300 transform hover:scale-105"
+                />
+              </div>
+            </div>
+          </div>
+          {/* Item 3 */}
+         
+          <div className="grid grid-cols-2 gap-6">
             <div className="relative flex justify-center">
               <Link
                 className="w-[80%] bg-white font-didact flex items-center py-8 px-4 absolute -bottom-10 z-10 transition-transform duration-300 transform hover:-translate-y-12"
@@ -147,7 +151,7 @@ export default function Services() {
                 className="w-full lg:w-80"
               />
             </div>
-            <div className="lg:h-[400px] py-[50px] text-white grid justify-center items-center grid-cols-3 grid-flow-row">
+            <div className="text-white grid grid-cols-3 gap-3 align-middle pt-4">
               <div className="flex flex-col items-center border-r border-gray">
                 <div>
                   <Image
