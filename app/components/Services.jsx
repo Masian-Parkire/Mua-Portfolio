@@ -151,7 +151,7 @@ export default function Services() {
                 className="w-full lg:w-80"
               />
             </div>
-            <div className="text-white grid grid-cols-3 gap-3 align-middle pt-4">
+            <div className="text-white grid grid-cols-3 gap-3 align-middle pt-4" >
               <div className="flex flex-col items-center border-r border-gray">
                 <div>
                   <Image
@@ -204,7 +204,7 @@ export default function Services() {
                   />
                 </div>
                 <h5 className="font-didact text-[15px] font-normal leading-[30px]">
-                  Eyebrow Makeup
+                  Eye Makeup
                 </h5>
               </div>
               <div className="flex flex-col items-center border-r border-gray">
