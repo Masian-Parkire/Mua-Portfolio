@@ -25,8 +25,8 @@ export default function Services() {
         </div>
 
         <Carousel className=" h-[40vh] md:h-screen">
-        {/* I/tem 1 */}
-        <div className="grid grid-cols-2 gap-6">
+          {/* I/tem 1 */}
+          <div className="grid grid-cols-2 gap-6">
             <div className="relative flex justify-center">
               <Link
                 className="w-[80%] bg-white font-didact flex items-center py-8 px-4 absolute -bottom-10 z-10 transition-transform duration-300 transform hover:-translate-y-12"
@@ -100,14 +100,14 @@ export default function Services() {
             </div>
           </div>
           {/* Item 3 */}
-         
+
           <div className="grid grid-cols-2 gap-6">
             <div className="relative flex justify-center">
               <Link
                 className="w-[80%] bg-white font-didact flex items-center py-8 px-4 absolute -bottom-10 z-10 transition-transform duration-300 transform hover:-translate-y-12"
                 href=""
               >
-               Bridal Makeup
+                Bridal Makeup
               </Link>
               <div className="relative overflow-hidden w-full">
                 <Image
@@ -124,7 +124,7 @@ export default function Services() {
                 className="w-[80%] bg-white font-didact flex items-center py-8 px-4 absolute -bottom-10 z-10 transition-transform duration-300 transform hover:-translate-y-12"
                 href=""
               >
-              Eye Lashes
+                Eye Lashes
               </Link>
               <div className="relative overflow-hidden w-full">
                 <Image
@@ -142,9 +142,9 @@ export default function Services() {
       <div className="w-full h-screen bg-black lg:h-[500px] mt-10">
         <div className="container">
           <div className="grid grid-cols-1 gap-4 items-center md:grid-cols-2 h-full">
-            <div className="lg:py-[50px] lg:ml-[239px] px-2 pt-4">
+            <div className="lg:py-[40px] lg:ml-[239px] px-2 pt-4">
               <Image
-                src={"/imageseven.png"}
+                src={"/kiithya.png"}
                 alt="makeup artist"
                 width={320}
                 height={400}
@@ -192,6 +192,7 @@ export default function Services() {
                   Facial Mask
                 </h5>
               </div>
+             
 
               <div className="flex flex-col items-center border-r border-gray">
                 <div>
