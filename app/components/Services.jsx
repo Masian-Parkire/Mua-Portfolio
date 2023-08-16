@@ -1,7 +1,8 @@
 import { Divider } from "@nextui-org/react";
 import Image from "next/image";
 import React from "react";
-import { Carousel } from "flowbite";
+import { Carousel } from "flowbite-react";
+import Link from "next/link";
 
 export default function Services() {
   return (
@@ -23,80 +24,118 @@ export default function Services() {
           </div>
         </div>
 
-        {/* <div id="indicators-carousel" class=" w-full" data-caraousel="static">
-          {/* carousel wrapper */}
-        {/* <div class="relative h-56 overflow-hidden rounded-lg md:h-96">
-            <div className="grid  grid-cols-1 lg:grid-cols-2 gap-6 px-2 lg:pl-0 ">
-              <div
-                class=" duration-700 ease-in-out "
-                data-carousel-item="active"
+        <Carousel className="h-screen ">
+          <div className="grid grid-cols-2 gap-6 pb-2">
+            <div className="relative flex justify-center">
+              <Link
+                className="w-[80%] bg-white font-didact flex items-center py-8 px-4 absolute -bottom-10 z-10 transition-transform duration-300 transform hover:-translate-y-12"
+                href=""
               >
-                <div className="">
-                  <Image
-                    src={"/imageone.png"}
-                    alt="eyeshadow makeup"
-                    width={500}
-                    height={450}
-                    className="w-full object-cover h-[500px]"
-                  />
-                </div>
+                Eye Shadow
+              </Link>
+              <div className="relative overflow-hidden w-full">
+                <Image
+                  src={"/imageone.png"}
+                  alt="eyeshadow"
+                  width={400}
+                  height={500}
+                  className="w-full h-full lg:h-[40rem] object-cover z-0 transition-transform duration-300 transform hover:scale-105"
+                />
               </div>
-              <div
-                class=" duration-700 ease-in-out"
-                data-carousel-item="active"
+            </div>
+            <div className="relative flex justify-center">
+              <Link
+                className="w-[80%] bg-white font-didact flex items-center py-8 px-4 absolute -bottom-10 z-10 transition-transform duration-300 transform hover:-translate-y-12"
+                href=""
               >
-                <div className="">
-                  <Image
-                    src={"/imagetwo.png"}
-                    alt="eyeshadow makeup"
-                    width={500}
-                    height={450}
-                    className="w-full object-cover h-[500px] "
-                  />
-                </div>
+                Face Makeup
+              </Link>
+              <div className="relative overflow-hidden w-full">
+                <Image
+                  src={"/imagetwo.png"}
+                  alt="eyeshadow"
+                  width={400}
+                  height={500}
+                  className="w-full h-full lg:h-[40rem] object-cover z-0 transition-transform duration-300 transform hover:scale-105"
+                />
               </div>
             </div>
           </div>
-          <div class="absolute z-30 flex space-x-3 -translate-x-1/2 bottom-5 left-1/2">
-            <button
-              type="button"
-              class="w-3 h-3 rounded-full"
-              aria-current="true"
-              aria-label="Slide 1"
-              data-carousel-slide-to="0"
-            ></button>
-            <button
-              type="button"
-              class="w-3 h-3 rounded-full"
-              aria-current="false"
-              aria-label="Slide 2"
-              data-carousel-slide-to="1"
-            ></button>
-            <button
-              type="button"
-              class="w-3 h-3 rounded-full"
-              aria-current="false"
-              aria-label="Slide 3"
-              data-carousel-slide-to="2"
-            ></button>
-            <button
-              type="button"
-              class="w-3 h-3 rounded-full"
-              aria-current="false"
-              aria-label="Slide 4"
-              data-carousel-slide-to="3"
-            ></button>
-            <button
-              type="button"
-              class="w-3 h-3 rounded-full"
-              aria-current="false"
-              aria-label="Slide 5"
-              data-carousel-slide-to="4"
-            ></button>
+          <div className="grid grid-cols-2 gap-6 pb-10">
+            <div className="relative flex justify-center">
+              <Link
+                className="w-[80%] bg-white font-didact flex items-center py-8 px-4 absolute -bottom-10 z-10 transition-transform duration-300 transform hover:-translate-y-12"
+                href=""
+              >
+                Eye Makeup
+              </Link>
+              <div className="relative overflow-hidden w-full">
+                <Image
+                  src={"/imagethree.jpg"}
+                  alt="eyeshadow"
+                  width={400}
+                  height={500}
+                  className="w-full h-full lg:h-[40rem] object-cover z-0 transition-transform duration-300 transform hover:scale-105"
+                />
+              </div>
+            </div>
+            <div className="relative flex justify-center">
+              <Link
+                className="w-[80%] bg-white font-didact flex items-center py-8 px-4 absolute -bottom-10 z-10 transition-transform duration-300 transform hover:-translate-y-12"
+                href=""
+              >
+                Full Makeup
+              </Link>
+              <div className="relative overflow-hidden w-full">
+                <Image
+                  src={"/imagefour.jpg"}
+                  alt="eyeshadow"
+                  width={400}
+                  height={500}
+                  className="w-full h-full lg:h-[40rem] object-cover z-0 transition-transform duration-300 transform hover:scale-105"
+                />
+              </div>
+            </div>
           </div>
-        </div> */}
+          <div className="grid grid-cols-2 gap-6 pb-10">
+            <div className="relative flex justify-center">
+              <Link
+                className="w-[80%] bg-white font-didact flex items-center py-8 px-4 absolute -bottom-10 z-10 transition-transform duration-300 transform hover:-translate-y-12"
+                href=""
+              >
+               Bridal Makeup
+              </Link>
+              <div className="relative overflow-hidden w-full">
+                <Image
+                  src={"/imagefive.jpg"}
+                  alt="eyeshadow"
+                  width={400}
+                  height={500}
+                  className="w-full h-full lg:h-[40rem] object-cover z-0 transition-transform duration-300 transform hover:scale-105"
+                />
+              </div>
+            </div>
+            <div className="relative flex justify-center">
+              <Link
+                className="w-[80%] bg-white font-didact flex items-center py-8 px-4 absolute -bottom-10 z-10 transition-transform duration-300 transform hover:-translate-y-12"
+                href=""
+              >
+              Eye Lashes
+              </Link>
+              <div className="relative overflow-hidden w-full">
+                <Image
+                  src={"/imagesix.jpg"}
+                  alt="eyeshadow"
+                  width={400}
+                  height={500}
+                  className="w-full h-full lg:h-[40rem] object-cover z-0 transition-transform duration-300 transform hover:scale-105"
+                />
+              </div>
+            </div>
+          </div>
+        </Carousel>
       </div>
-      <div className="w-full h-screen bg-black lg:h-[500px]">
+      <div className="w-full h-screen bg-black lg:h-[500px] mt-10">
         <div className="container">
           <div className="grid grid-cols-1 gap-4 items-center md:grid-cols-2 h-full">
             <div className="lg:py-[50px] lg:ml-[239px] px-2 pt-4">
