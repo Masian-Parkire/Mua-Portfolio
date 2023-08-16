@@ -45,7 +45,7 @@ function Navbar() {
             Home
           </Link>
           <Link
-            href="#"
+            href="/#about"
             className="block mt-4 lg:inline-block lg:mt-0 text-white-200  lg:pr-16 hover:text-light-salmon-pink"
           >
             About
