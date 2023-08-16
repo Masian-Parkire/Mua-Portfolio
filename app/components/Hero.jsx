@@ -3,7 +3,7 @@ import React from "react";
 
 export default function Hero() {
   return (
-    <div className="container mx-auto flex items-center h-[80vh]  ">
+    <div className="container mx-auto flex items-center h-[100vh]  ">
     <div className="pl-4 lg:pl-0">
       <div className="pb-6">
         <Divider className=" bg-light-salmon-pink w-[85px] " />

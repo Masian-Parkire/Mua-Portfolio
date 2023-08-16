@@ -10,19 +10,19 @@ import Prices from "./components/Prices";
 export default function Home() {
   return (
     <main className="bg-white">
-      <section className="bg-[url(/hero.jpg)]  bg-center h-screen bg-no-repeat bg-cover">
+     <Navbar />
+      <section className="bg-[url(/hero.jpg)]  bg-center h-screen bg-no-repeat bg-cover z-0 -mt-[80px]">
         <div
           className="w-full h-full
             bg-black/50 backdrop-brightness-75"
         >
-          <Navbar />
+         
           <Hero />
         </div>
-       
       </section>
       <AboutMe />
-      <Services/>
-      <Prices/>
+      <Services />
+      <Prices />
     </main>
   );
 }

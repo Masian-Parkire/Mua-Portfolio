@@ -24,7 +24,7 @@ export default function Services() {
           </div>
         </div>
 
-        <Carousel className="h-screen">
+        <Carousel className=" h-[40vh] md:h-screen">
         {/* I/tem 1 */}
         <div className="grid grid-cols-2 gap-6">
             <div className="relative flex justify-center">
