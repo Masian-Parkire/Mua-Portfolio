@@ -6,7 +6,7 @@ import Link from "next/link";
 
 export default function Services() {
   return (
-    <section className="bg-[#F0F0F0] py-2 lg:pt-[100px]">
+    <section id="services" className="bg-[#F0F0F0] py-2 lg:pt-[100px]">
       <div className="container mx-auto">
         <div className="pl-2 lg:pl-0">
           <div className="pb-2">
