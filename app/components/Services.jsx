@@ -6,8 +6,8 @@ import Link from "next/link";
 
 export default function Services() {
   return (
-    <section id="services" className="bg-[#F0F0F0] py-2 lg:pt-[100px]">
-      <div className="container mx-auto">
+    <section id="services" className="bg-[#F0F0F0] ">
+      <div className="container mx-auto py-2 lg:pt-[100px]">
         <div className="pl-2 lg:pl-0">
           <div className="pb-2">
             <p className="leading-snug tracking-[6.60px] text-sm text-light-salmon-pink font-oswald">
@@ -148,7 +148,7 @@ export default function Services() {
                 alt="makeup artist"
                 width={320}
                 height={400}
-                className="w-full lg:w-80"
+                className="w-full h-auto lg:w-80"
               />
             </div>
             <div className="text-white grid grid-cols-3 gap-3 align-middle pt-4" >
@@ -237,6 +237,7 @@ export default function Services() {
           </div>
         </div>
       </div>
+      <Divider className=" bg-light-salmon-pink w-[85px] mx-auto rotate-90"/>
     </section>
   );
 }
