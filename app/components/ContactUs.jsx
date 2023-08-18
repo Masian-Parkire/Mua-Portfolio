@@ -114,8 +114,8 @@ export default function ContactUs() {
            
             
 
-            <button type="submit" className=" px-8 py-3 bg-red-300 justify-center items-center gap-2.5 inline-flex mt-6">
-              <p className="text-red-50 text-[15px] font-normal leading-snug font-didact">
+            <button  title="submit" type="submit" className=" px-8 py-3 bg-red-300 justify-center items-center gap-2.5 inline-flex mt-6">
+              <p className="text-[#030202] text-[15px] font-normal leading-snug font-didact">
                 Submit
               </p>
             </button>
