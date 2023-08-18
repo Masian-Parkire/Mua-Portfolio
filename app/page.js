@@ -10,6 +10,7 @@ import Prices from "./components/Prices";
 import Services from "./components/Services";
 import Footer from "./components/Footer";
 
+
 export default function Home() {
   return (
     <main className="bg-white">
@@ -22,7 +23,8 @@ export default function Home() {
         >
           <Hero />
         </div>
-        <Divider className=" bg-light-salmon-pink w-[85px] mx-auto rotate-90"/>
+       
+        <Divider className=" bg-light-salmon-pink w-[85px] mx-auto rotate-90 md:block hidden"/>
       </section>
       <AboutMe />
       <Services />

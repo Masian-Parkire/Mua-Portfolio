@@ -41,7 +41,7 @@ export default function Portfolio() {
  
       </div>
       
-      <Divider className=" bg-light-salmon-pink w-[85px] mx-auto rotate-90"  />
+      <Divider className=" bg-light-salmon-pink w-[85px] mx-auto rotate-90 md:block hidden"  />
     </section>
   );
 }

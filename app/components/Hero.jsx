@@ -19,9 +19,9 @@ export default function Hero() {
         </p>
       </div>
 
-      <p className="py-2 px-3 first-letter:px-3 bg-light-salmon-pink text-white font-didact text-base leading-snug inline-flex">
+      <button className="py-2 px-3 first-letter:px-3 bg-light-salmon-pink text-white font-didact text-base leading-snug inline-flex">
         About Me
-      </p>
+      </button>
     </div>
   </div>
   );
