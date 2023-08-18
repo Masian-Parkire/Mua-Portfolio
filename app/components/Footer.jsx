@@ -9,11 +9,13 @@ import {
   TfiEmail,
   TfiLocationPin,
 } from "react-icons/tfi";
+import {TbHeartFilled} from "react-icons/tb"
 
 export default function Footer() {
+    const currentYear = new Date().toISOString().substr(0, 4);
   return (
-    <footer className="bg-black py-2 lg:py-[100px]">
-      <div className="container mx-auto">
+    <footer className="bg-black ">
+      <div className="container mx-auto py-2 lg:pt-[100px]">
         <div className="grid grid-cols-1 lg:grid-cols-3 items-center justify-center">
           <div>
             <div className="py-2.5 justify-center items-center gap-2.5 inline-flex">
@@ -73,7 +75,11 @@ export default function Footer() {
         </div>
       </div>
       <Divider className="mt-10 bg-zinc-800"/>
-      
+      <p className= "text-[#FFF5F5] font-didact text-center text-xs py-[20px] flex align-middle justify-center gap-1 ">
+          &#169; <span className="font-semibold">{currentYear}. </span> 
+            All rights Reserved by <Link href="https://beatricewambuimbugua.vercel.app/" className="hover:underline hover:text-light-salmon-pink"> Developer Wambui </Link>
+          <TbHeartFilled className="text-red-800 text-lg"/>
+        </p>
     </footer>
   );
 }
