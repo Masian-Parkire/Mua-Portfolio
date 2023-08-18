@@ -28,7 +28,7 @@ export default function ContactUs() {
           </div>
         </div>
         {/* contact us */}
-        <div className="grid grid-cols-1 lg:grid-cols-2 ">
+        <div className="grid grid-cols-1 lg:grid-cols-2  r">
           <div className="font-didact">
             <p className="text-neutral-900 text-opacity-70 text-[17px] font-didact leading-7">
               Hi, it is me Kiithya, Unleash Your Beauty Dreams!{" "}
