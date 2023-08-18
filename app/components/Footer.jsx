@@ -16,7 +16,7 @@ export default function Footer() {
   return (
     <footer className="bg-black ">
       <div className="container mx-auto py-2 lg:pt-[100px]">
-        <div className="grid grid-cols-1 lg:grid-cols-3 items-center justify-center">
+        <div className="grid grid-cols-1 lg:grid-cols-3 items-center justify-center pl-2 lg:pl-0">
           <div>
             <div className="py-2.5 justify-center items-center gap-2.5 inline-flex">
               <p className="text-red-300 text-[45px] font-normal leading-snug tracking-[7.50px] font-oswald">
@@ -35,7 +35,7 @@ export default function Footer() {
             </div>
           </div>
           <div className="text-[#FFF5F5]">
-            <p className="text-red-300 text-[15px] font-normal leading-snug tracking-[5px] font-oswald py-2.5 justify-center items-center">
+            <p className="text-red-300 text-[15px] font-normal leading-snug tracking-[5px] font-oswald py-2.5 justify-center items-center pt-4 lg:pt-0">
               GET IN TOUCH
             </p>
             <div className="w-[295px] border border-zinc-800"></div>
@@ -53,7 +53,7 @@ export default function Footer() {
             </div>
           </div>
           <div className="text-[#FFF5F5]  ">
-            <p className="text-red-300 text-[15px] font-normal leading-snug tracking-[5px] font-oswald py-2.5 justify-center items-center">
+            <p className="text-red-300 text-[15px] font-normal leading-snug tracking-[5px] font-oswald py-2.5 justify-center items-center pt-4 lg:pt-0">
               OPENING HOURS
             </p>
             <div className="w-[295px] border border-zinc-800"></div>

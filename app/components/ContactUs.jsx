@@ -28,7 +28,7 @@ export default function ContactUs() {
           </div>
         </div>
         {/* contact us */}
-        <div className="grid grid-cols-1 lg:grid-cols-2  r">
+        <div className="grid grid-cols-1 lg:grid-cols-2  pl-2 lg:pl-0">
           <div className="font-didact">
             <p className="text-neutral-900 text-opacity-70 text-[17px] font-didact leading-7">
               Hi, it is me Kiithya, Unleash Your Beauty Dreams!{" "}
@@ -63,7 +63,7 @@ export default function ContactUs() {
             </div>
           </div>
           <div className="font-didact">
-            <p className="leading-snug tracking-[6.60px] text-sm text-light-salmon-pink font-oswald">
+            <p className="leading-snug tracking-[6.60px] text-sm text-light-salmon-pink font-oswald pt-4 lg:pt-0">
               GET IN TOUCH
             </p>
             

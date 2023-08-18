@@ -21,7 +21,7 @@ export default function Prices() {
           </div>
         </div>
         {/* cards */}
-        <div className="grid grid-cols-1 md:grid-cols-2 h-screen lg:h-full gap-2  ">
+        <div className="grid grid-cols-1 md:grid-cols-2 h-screen lg:h-full gap-2 px-2 lg:px-0  ">
           <div className="bg-[url(/imageone.png)] w-full h-full lg:h-[30rem] bg-no-repeat bg-cover relative  ">
             <div className="w-full h-full backdrop-blur-sm bg-black/30 absolute flex justify-center align-middle">
               <h2 className="left-[40px] top-[83px] absolute text-white text-2xl font-normal font-oswald leading-snug tracking-widest">

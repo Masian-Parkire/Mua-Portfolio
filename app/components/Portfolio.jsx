@@ -8,7 +8,7 @@ export default function Portfolio() {
   return (
     <section id="portfolio" className="bg-[#FFF5F5] ">
       <div className="container mx-auto py-2 lg:py-[100px]">
-        <div className="pl-2 lg:pl-0">
+        <div className="px-2 lg:px-0">
           <div className="pb-2">
             <p className="leading-snug tracking-[6.60px] text-sm text-light-salmon-pink font-oswald">
               GALLERY
@@ -22,9 +22,7 @@ export default function Portfolio() {
           <div className="pb-6">
             <Divider className=" bg-light-salmon-pink w-[85px] " />
           </div>
-        </div>
-        {/* Portfolio */}
-        <div className="grid grid-cols-1 lg:grid-cols-3 gap-2 ">
+          <div className="grid grid-cols-1 lg:grid-cols-3 gap-2 ">
         <Image src="/imageone.png" width={376} height = {250} alt="Image" className="w-full h-auto"/>
         <Image src="/imageone.png" width={376} height = {250} alt="Image" className="w-full h-auto"/>
         <Image src="/imageone.png" width={376} height = {250} alt="Image" className="w-full h-auto"/>
@@ -37,6 +35,9 @@ export default function Portfolio() {
         
 
         </div>
+        </div>
+        {/* Portfolio */}
+       
 
  
       </div>
