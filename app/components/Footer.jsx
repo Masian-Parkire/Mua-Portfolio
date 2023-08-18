@@ -1,5 +1,14 @@
+import { Divider } from "@nextui-org/react";
+import Link from "next/link";
 import React from "react";
-import { TfiFacebook, TfiInstagram, TfiTwitter, TfiHeadphoneAlt, TfiEmail, TfiLocationPin  } from "react-icons/tfi";
+import {
+  TfiFacebook,
+  TfiInstagram,
+  TfiTwitter,
+  TfiHeadphoneAlt,
+  TfiEmail,
+  TfiLocationPin,
+} from "react-icons/tfi";
 
 export default function Footer() {
   return (
@@ -24,9 +33,11 @@ export default function Footer() {
             </div>
           </div>
           <div className="text-[#FFF5F5]">
-          <p className="text-red-300 text-[15px] font-normal leading-snug tracking-[5px] font-oswald py-2.5 justify-center items-center">GET IN TOUCH</p>
-          <div className="w-[295px] border border-zinc-800"></div>
-          <div className="flex gap-6 mt-6 items-center">
+            <p className="text-red-300 text-[15px] font-normal leading-snug tracking-[5px] font-oswald py-2.5 justify-center items-center">
+              GET IN TOUCH
+            </p>
+            <div className="w-[295px] border border-zinc-800"></div>
+            <div className="flex gap-6 mt-6 items-center">
               <TfiHeadphoneAlt className="text-light-salmon-pink" />
               <p className="font-didact">+254 706 766 020</p>
             </div>
@@ -39,11 +50,30 @@ export default function Footer() {
               <p className="font-didact">Karen, Nairobi</p>
             </div>
           </div>
-          <div className="text-[#FFF5F5]">
-            
+          <div className="text-[#FFF5F5]  ">
+            <p className="text-red-300 text-[15px] font-normal leading-snug tracking-[5px] font-oswald py-2.5 justify-center items-center">
+              OPENING HOURS
+            </p>
+            <div className="w-[295px] border border-zinc-800"></div>
+            <div className="flex gap-8 mt-6">
+              <p className="font-didact"> Mon - Fri:</p>
+              <p className="font-didact"> 9am - 7pm</p>
+            </div>
+            <div className="flex gap-[32px] mt-6">
+              <p className="font-didact"> Saturday: </p>
+              <p className="font-didact"> 10am - 5pm</p>
+            </div>
+            <div className="flex gap-[44px] mt-6">
+              <p className="font-didact"> Sunday: </p>
+              <Link href="tel:+254 706 766 020">
+                <p className="font-didact"> By Call </p>
+              </Link>
+            </div>
           </div>
         </div>
       </div>
+      <Divider className="mt-10 bg-zinc-800"/>
+      
     </footer>
   );
 }
