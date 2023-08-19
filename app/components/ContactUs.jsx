@@ -28,7 +28,7 @@ export default function ContactUs() {
           </div>
         </div>
         {/* contact us */}
-        <div className="grid grid-cols-1 lg:grid-cols-2  pl-2 lg:pl-0">
+        <div className="grid grid-cols-1 lg:grid-cols-2  px-2 lg:px-0">
           <div className="font-didact">
             <p className="text-neutral-900 text-opacity-70 text-[17px] font-didact leading-7">
               Hi, it is me Kiithya, Unleash Your Beauty Dreams!{" "}
@@ -67,7 +67,7 @@ export default function ContactUs() {
               GET IN TOUCH
             </p>
 
-            <div className=" grid-cols-1 lg:grid-cols-2 gap-3 pt-6 grid">
+            <div className=" grid-cols-1 lg:grid-cols-2 gap-3 pt-6 grid ">
             <div class="relative z-0 ">
                 <input
                   type="text"
@@ -99,7 +99,7 @@ export default function ContactUs() {
           
             </div>
            
-            <div class="relative z-0 mt-6">
+            <div class="relative z-0 mt-6 ">
               <textarea
                 type="textarea"
                 id="textarea"
@@ -117,7 +117,7 @@ export default function ContactUs() {
             <button
               title="submit"
               type="submit"
-              className=" px-8 py-3 bg-red-300 justify-center items-center gap-2.5 inline-flex mt-6"
+              className=" px-8 py-3 bg-red-300 justify-center items-center gap-2.5 inline-flex mt-6 "
             >
               <p className="text-[#030202] text-[15px] font-normal leading-snug font-didact">
                 Submit

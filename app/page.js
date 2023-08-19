@@ -16,7 +16,7 @@ export default function Home() {
     <main className="bg-white">
 
      <Navbar />
-      <section className="bg-[url(/hero.jpg)]  bg-center h-screen bg-no-repeat bg-cover z-0 -mt-[70px]">
+      <section className="bg-[url(/hero.jpg)]  bg-center h-screen bg-no-repeat bg-cover -mt-[100px]">
         <div
           className="w-full h-full
             bg-black/50 backdrop-brightness-75"

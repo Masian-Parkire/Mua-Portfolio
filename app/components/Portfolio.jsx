@@ -23,16 +23,15 @@ export default function Portfolio() {
             <Divider className=" bg-light-salmon-pink w-[85px] " />
           </div>
           <div className="grid grid-cols-1 lg:grid-cols-3 gap-2 ">
-        <Image src="/imageone.png" width={376} height = {250} alt="Image" className="w-full h-auto"/>
-        <Image src="/imageone.png" width={376} height = {250} alt="Image" className="w-full h-auto"/>
-        <Image src="/imageone.png" width={376} height = {250} alt="Image" className="w-full h-auto"/>
-        <Image src="/imageone.png" width={376} height = {250} alt="Image" className="w-full h-auto"/>
-        <Image src="/imageone.png" width={376} height = {250} alt="Image" className="w-full h-auto"/>
-        <Image src="/imageone.png" width={376} height = {250} alt="Image" className="w-full h-auto"/>
-        <Image src="/imageone.png" width={376} height = {250} alt="Image" className="w-full h-auto"/>
-        <Image src="/imageone.png" width={376} height = {250} alt="Image" className="w-full h-auto"/>
-        <Image src="/imageone.png" width={376} height = {250} alt="Image" className="w-full h-auto"/>
-        
+        <Image src="/imageone.webp" width={376} height = {250} alt="Image" className="w-full h-auto object-cover"/>
+        <Image src="/imagetwo.webp" width={376} height = {250} alt="Image" className="w-full h-auto object-cover"/>
+        <Image src="/imagethree.webp" width={376} height = {250} alt="Image" className="w-full h-auto object-cover"/>
+        <Image src="/imagefour.webp" width={376} height = {250} alt="Image" className="w-full h-auto object-cover"/>
+        <Image src="/imagefive.webp" width={376} height = {250} alt="Image" className="w-full h-auto object-cover"/>
+        <Image src="/imageone.webp" width={376} height = {250} alt="Image" className="w-full h-auto object-cover"/>
+        <Image src="/imagetwo.webp" width={376} height = {250} alt="Image" className="w-full h-auto object-cover"/>
+        <Image src="/imagethree.webp" width={376} height = {250} alt="Image" className="w-full h-auto object-cover"/>
+        <Image src="/imagefour.webp" width={376} height = {250} alt="Image" className="w-full h-auto object-cover"/>
 
         </div>
         </div>

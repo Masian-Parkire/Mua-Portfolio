@@ -19,7 +19,7 @@ export default function Hero() {
         </p>
       </div>
 
-      <button title="About Me" className="py-2 px-3 first-letter:px-3 bg-light-salmon-pink text-[##030202] font-didact text-base leading-snug inline-flex">
+      <button title="About Me" className="py-2 px-3 first-letter:px-3 bg-light-salmon-pink text-[#030202] font-didact text-base leading-snug inline-flex">
         About Me
       </button>
     </div>

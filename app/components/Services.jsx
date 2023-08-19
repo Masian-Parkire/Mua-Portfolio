@@ -24,40 +24,40 @@ export default function Services() {
           </div>
         </div>
 
-        <Carousel className=" h-[40vh] md:h-screen px-2 lg:px-0">
+        <Carousel className=" h-[40vh] md:h-screen px-2 lg:px-0 text-[#030202] ">
           {/* I/tem 1 */}
           <div className="grid grid-cols-2 gap-6">
             <div className="relative flex justify-center">
               <Link
-                className="w-[80%] bg-white font-didact flex items-center py-8 px-4 absolute -bottom-10 z-10 transition-transform duration-300 transform hover:-translate-y-12"
+                className="w-[80%] bg-light-salmon-pink font-didact flex items-center py-8 px-4 absolute -bottom-10 z-10 transition-transform duration-300 transform hover:-translate-y-12"
                 href=""
               >
                 Eye Makeup
               </Link>
               <div className="relative overflow-hidden w-full">
                 <Image
-                  src={"/imagethree.jpg"}
+                  src={"/imagetwo.webp"}
                   alt="eyeshadow"
                   width={400}
                   height={500}
-                  className="w-full h-full lg:h-[40rem] object-cover z-0 transition-transform duration-300 transform hover:scale-105"
+                  className="w-full h-full lg:h-auto object-cover z-0 transition-transform duration-300 transform hover:scale-105"
                 />
               </div>
             </div>
             <div className="relative flex justify-center">
               <Link
-                className="w-[80%] bg-white font-didact flex items-center py-8 px-4 absolute -bottom-10 z-10 transition-transform duration-300 transform hover:-translate-y-12"
+                className="w-[80%] bg-light-salmon-pink font-didact flex items-center py-8 px-4 absolute -bottom-10 z-10 transition-transform duration-300 transform hover:-translate-y-12"
                 href=""
               >
                 Full Makeup
               </Link>
               <div className="relative overflow-hidden w-full">
                 <Image
-                  src={"/imagefour.jpg"}
+                  src={"/imagethree.webp"}
                   alt="eyeshadow"
                   width={400}
                   height={500}
-                  className="w-full h-full lg:h-[40rem] object-cover z-0 transition-transform duration-300 transform hover:scale-105"
+                  className="w-full h-full lg:h-auto  object-cover z-0 transition-transform duration-300 transform hover:scale-105"
                 />
               </div>
             </div>
@@ -66,35 +66,35 @@ export default function Services() {
           <div className="grid grid-cols-2 gap-6 ">
             <div className="relative flex justify-center">
               <Link
-                className="w-[80%] bg-white font-didact flex items-center py-8 px-4 absolute -bottom-10 z-10 transition-transform duration-300 transform hover:-translate-y-12"
+                className="w-[80%] bg-light-salmon-pink font-didact flex items-center py-8 px-4 absolute -bottom-10 z-10 transition-transform duration-300 transform hover:-translate-y-12"
                 href=""
               >
                 Eye Shadow
               </Link>
               <div className="relative overflow-hidden w-full">
                 <Image
-                  src={"/imageone.png"}
+                  src={"/imageone.webp"}
                   alt="eyeshadow"
                   width={400}
                   height={500}
-                  className="w-full h-full lg:h-[40rem] object-cover z-0 transition-transform duration-300 transform hover:scale-105"
+                  className="w-full h-full lg:h-auto   object-cover z-0 transition-transform duration-300 transform hover:scale-105"
                 />
               </div>
             </div>
             <div className="relative flex justify-center">
               <Link
-                className="w-[80%] bg-white font-didact flex items-center py-8 px-4 absolute -bottom-10 z-10 transition-transform duration-300 transform hover:-translate-y-12"
+                className="w-[80%] bg-light-salmon-pink font-didact flex items-center py-8 px-4 absolute -bottom-10 z-10 transition-transform duration-300 transform hover:-translate-y-12"
                 href=""
               >
                 Face Makeup
               </Link>
               <div className="relative overflow-hidden w-full">
                 <Image
-                  src={"/imagetwo.png"}
+                  src={"/imagefour.webp"}
                   alt="eyeshadow"
                   width={400}
                   height={500}
-                  className="w-full h-full lg:h-[40rem] object-cover z-0 transition-transform duration-300 transform hover:scale-105"
+                  className="w-full h-full lg:h-auto object-cover z-0 transition-transform duration-300 transform hover:scale-105"
                 />
               </div>
             </div>
@@ -104,35 +104,35 @@ export default function Services() {
           <div className="grid grid-cols-2 gap-6">
             <div className="relative flex justify-center">
               <Link
-                className="w-[80%] bg-white font-didact flex items-center py-8 px-4 absolute -bottom-10 z-10 transition-transform duration-300 transform hover:-translate-y-12"
+                className="w-[80%] bg-light-salmon-pink font-didact flex items-center py-8 px-4 absolute -bottom-10 z-10 transition-transform duration-300 transform hover:-translate-y-12"
                 href=""
               >
                 Bridal Makeup
               </Link>
               <div className="relative overflow-hidden w-full">
                 <Image
-                  src={"/imagefive.jpg"}
+                  src={"/imagefive.webp"}
                   alt="eyeshadow"
                   width={400}
                   height={500}
-                  className="w-full h-full lg:h-[40rem] object-cover z-0 transition-transform duration-300 transform hover:scale-105"
+                  className="w-full h-full lg:h-auto   object-cover z-0 transition-transform duration-300 transform hover:scale-105"
                 />
               </div>
             </div>
             <div className="relative flex justify-center">
               <Link
-                className="w-[80%] bg-white font-didact flex items-center py-8 px-4 absolute -bottom-10 z-10 transition-transform duration-300 transform hover:-translate-y-12"
+                className="w-[80%] bg-light-salmon-pink font-didact flex items-center py-8 px-4 absolute -bottom-10 z-10 transition-transform duration-300 transform hover:-translate-y-12"
                 href=""
               >
                 Eye Lashes
               </Link>
               <div className="relative overflow-hidden w-full">
                 <Image
-                  src={"/imagesix.jpg"}
+                  src={"/imagethree.webp"}
                   alt="eyeshadow"
                   width={400}
                   height={500}
-                  className="w-full h-full lg:h-[40rem] object-cover z-0 transition-transform duration-300 transform hover:scale-105"
+                  className="w-full h-full lg:h-auto  object-cover z-0 transition-transform duration-300 transform hover:scale-105"
                 />
               </div>
             </div>

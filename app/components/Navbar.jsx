@@ -8,9 +8,11 @@ function Navbar() {
     <nav className=" bg-black/20 w-full z-50 sticky top-0 py-4">
       <div className="container mx-auto flex items-center justify-between flex-wrap   pl-4 lg:pl-0 text-white ">
         <div className="flex items-center flex-shrink-0 text-white mr-6 lg:mr-72">
-          <p className="first-letter:text-3xl first-letter:font-bold first-letter:text-white tracking-widest font-oswald text-2xl">
-            Kiithya
-          </p>
+        
+              <p className="text-white text-[45px] font-normal leading-snug tracking-[7.50px] font-oswald">
+                KIITHYA
+              </p>
+          
         </div>
         <div className="block lg:hidden">
           <button
