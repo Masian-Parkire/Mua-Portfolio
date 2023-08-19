@@ -9,19 +9,21 @@ import {
   TfiEmail,
   TfiLocationPin,
 } from "react-icons/tfi";
-import {TbHeartFilled} from "react-icons/tb"
+import { TbHeartFilled } from "react-icons/tb";
 
 export default function Footer() {
-    const currentYear = new Date().toISOString().substr(0, 4);
+  const currentYear = new Date().toISOString().substr(0, 4);
   return (
     <footer className="bg-black ">
       <div className="container mx-auto py-2 lg:pt-[100px]">
         <div className="grid grid-cols-1 lg:grid-cols-3 items-center justify-center pl-2 lg:pl-0">
           <div>
             <div className="py-2.5 justify-center items-center gap-2.5 inline-flex">
-              <p className="text-red-300 text-[45px] font-normal leading-snug tracking-[7.50px] font-oswald">
-                KIITHYA
-              </p>
+              <Link href="/">
+                <p className="text-red-300 text-[45px] font-normal leading-snug tracking-[7.50px] font-oswald">
+                  KIITHYA
+                </p>
+              </Link>
             </div>
             <p className="text-white text-[15px] font-didact leading-relaxed">
               Hi, it is me Kiithya, Unleash Your Beauty Dreams!
@@ -68,18 +70,25 @@ export default function Footer() {
             <div className="flex gap-[44px] mt-6">
               <p className="font-didact"> Sunday: </p>
               <Link href="tel:+254 706 766 020">
-                <p className="font-didact"> By Call </p>
+                <p className="font-didact hover:text-light-salmon-pink"> By Call </p>
               </Link>
             </div>
           </div>
         </div>
       </div>
-      <Divider className="mt-10 bg-zinc-800"/>
-      <p className= "text-[#FFF5F5] font-didact text-center text-xs py-[20px] flex align-middle justify-center gap-1 ">
-          &#169; <span className="font-semibold">{currentYear}. </span> 
-            All rights Reserved by <Link href="https://beatricewambuimbugua.vercel.app/" className="hover:underline hover:text-light-salmon-pink"> Developer Wambui </Link>
-          <TbHeartFilled className="text-red-800 text-lg"/>
-        </p>
+      <Divider className="mt-10 bg-zinc-800" />
+      <p className="text-[#FFF5F5] font-didact text-center text-xs py-[20px] flex align-middle justify-center gap-1 ">
+        &#169; <span className="font-semibold">{currentYear}. </span>
+        All rights Reserved by{" "}
+        <Link
+          href="https://beatricewambuimbugua.vercel.app/" target="_blank"
+          className="hover:underline hover:text-light-salmon-pink"
+        >
+          {" "}
+          Developer Wambui{" "}
+        </Link>
+        <TbHeartFilled className="text-red-800 text-lg" />
+      </p>
     </footer>
   );
 }
