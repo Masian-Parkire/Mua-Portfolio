@@ -66,9 +66,9 @@ export default function ContactUs() {
             <p className="leading-snug tracking-[6.60px] text-sm text-light-salmon-pink font-oswald pt-4 lg:pt-0">
               GET IN TOUCH
             </p>
-            
-            <div className="flex gap-3 pt-6 ">
-              <div class="relative z-0">
+
+            <div className=" grid-cols-1 lg:grid-cols-2 gap-3 pt-6 grid">
+            <div class="relative z-0 ">
                 <input
                   type="text"
                   id="name"
@@ -82,7 +82,7 @@ export default function ContactUs() {
                   Name
                 </label>
               </div>
-              <div class="relative z-0">
+            <div class="relative z-0 ">
                 <input
                   type="email"
                   id="email"
@@ -96,7 +96,9 @@ export default function ContactUs() {
                   Email
                 </label>
               </div>
+          
             </div>
+           
             <div class="relative z-0 mt-6">
               <textarea
                 type="textarea"
@@ -111,10 +113,12 @@ export default function ContactUs() {
                 Message
               </label>
             </div>
-           
-            
 
-            <button  title="submit" type="submit" className=" px-8 py-3 bg-red-300 justify-center items-center gap-2.5 inline-flex mt-6">
+            <button
+              title="submit"
+              type="submit"
+              className=" px-8 py-3 bg-red-300 justify-center items-center gap-2.5 inline-flex mt-6"
+            >
               <p className="text-[#030202] text-[15px] font-normal leading-snug font-didact">
                 Submit
               </p>
@@ -122,7 +126,7 @@ export default function ContactUs() {
           </div>
         </div>
       </div>
-      <Divider className=" bg-light-salmon-pink w-[85px] mx-auto rotate-90 md:block hidden"/>
+      <Divider className=" bg-light-salmon-pink w-[85px] mx-auto rotate-90 md:block hidden" />
     </section>
   );
 }
