@@ -2,8 +2,6 @@ import { Divider } from "@nextui-org/react";
 import Image from "next/image";
 import React from "react";
 
-
-
 export default function Portfolio() {
   return (
     <section id="portfolio" className="bg-[#FFF5F5] ">
@@ -23,25 +21,75 @@ export default function Portfolio() {
             <Divider className=" bg-light-salmon-pink w-[85px] " />
           </div>
           <div className="grid grid-cols-1 lg:grid-cols-3 gap-2 ">
-        <Image src="/imageone.webp" width={376} height = {250} alt="Image" className="w-full h-auto object-cover"/>
-        <Image src="/imagetwo.webp" width={376} height = {250} alt="Image" className="w-full h-auto object-cover"/>
-        <Image src="/imagethree.webp" width={376} height = {250} alt="Image" className="w-full h-auto object-cover"/>
-        <Image src="/imagefour.webp" width={376} height = {250} alt="Image" className="w-full h-auto object-cover"/>
-        <Image src="/imagefive.webp" width={376} height = {250} alt="Image" className="w-full h-auto object-cover"/>
-        <Image src="/imageone.webp" width={376} height = {250} alt="Image" className="w-full h-auto object-cover"/>
-        <Image src="/imagetwo.webp" width={376} height = {250} alt="Image" className="w-full h-auto object-cover"/>
-        <Image src="/imagethree.webp" width={376} height = {250} alt="Image" className="w-full h-auto object-cover"/>
-        <Image src="/imagefour.webp" width={376} height = {250} alt="Image" className="w-full h-auto object-cover"/>
-
-        </div>
+            <Image
+              src="/imageone.webp"
+              width={376}
+              height={250}
+              alt="Image"
+              className="w-full h-auto object-cover transition-transform duration-300 transform hover:scale-75 hover:cursor-zoom-in"
+            />
+            <Image
+              src="/imagetwo.webp"
+              width={376}
+              height={250}
+              alt="Image"
+              className="w-full h-auto object-cover transition-transform duration-300 transform hover:scale-75 hover:cursor-zoom-in"
+            />
+            <Image
+              src="/imagethree.webp"
+              width={376}
+              height={250}
+              alt="Image"
+              className="w-full h-auto object-cover transition-transform duration-300 transform hover:scale-75 hover:cursor-zoom-in"
+            />
+            <Image
+              src="/imagefour.webp"
+              width={376}
+              height={250}
+              alt="Image"
+              className="w-full h-auto object-cover transition-transform duration-300 transform hover:scale-75 hover:cursor-zoom-in"
+            />
+            <Image
+              src="/imagefive.webp"
+              width={376}
+              height={250}
+              alt="Image"
+              className="w-full h-auto object-cover transition-transform duration-300 transform hover:scale-75 hover:cursor-zoom-in"
+            />
+            <Image
+              src="/imageone.webp"
+              width={376}
+              height={250}
+              alt="Image"
+              className="w-full h-auto object-cover transition-transform duration-300 transform hover:scale-75 hover:cursor-zoom-in"
+            />
+            <Image
+              src="/imagetwo.webp"
+              width={376}
+              height={250}
+              alt="Image"
+              className="w-full h-auto object-cover transition-transform duration-300 transform hover:scale-75 hover:cursor-zoom-in"
+            />
+            <Image
+              src="/imagethree.webp"
+              width={376}
+              height={250}
+              alt="Image"
+              className="w-full h-auto object-cover transition-transform duration-300 transform hover:scale-75 hover:cursor-zoom-in"
+            />
+            <Image
+              src="/imagefour.webp"
+              width={376}
+              height={250}
+              alt="Image"
+              className="w-full h-auto object-cover transition-transform duration-300 transform hover:scale-75 hover:cursor-zoom-in"
+            />
+          </div>
         </div>
         {/* Portfolio */}
-       
-
- 
       </div>
-      
-      <Divider className=" bg-light-salmon-pink w-[85px] mx-auto rotate-90 md:block hidden"  />
+
+      <Divider className=" bg-light-salmon-pink w-[85px] mx-auto rotate-90 md:block hidden" />
     </section>
   );
 }

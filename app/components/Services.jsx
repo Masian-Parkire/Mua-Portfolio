@@ -29,7 +29,7 @@ export default function Services() {
           <div className="grid grid-cols-2 gap-6">
             <div className="relative flex justify-center">
               <Link
-                className="w-[80%] bg-light-salmon-pink font-didact flex items-center py-8 px-4 absolute -bottom-10 z-10 transition-transform duration-300 transform hover:-translate-y-12"
+                className="w-[80%] bg-light-salmon-pink font-didact flex items-center py-3 px-2 lg:py-8 lg:px-4 absolute -bottom-6 lg:-bottom-10 z-10 transition-transform duration-300 transform hover:-translate-y-12"
                 href=""
               >
                 Eye Makeup
@@ -46,7 +46,7 @@ export default function Services() {
             </div>
             <div className="relative flex justify-center">
               <Link
-                className="w-[80%] bg-light-salmon-pink font-didact flex items-center py-8 px-4 absolute -bottom-10 z-10 transition-transform duration-300 transform hover:-translate-y-12"
+                className="w-[80%] bg-light-salmon-pink font-didact flex items-center py-3 px-2 lg:py-8 lg:px-4 absolute -bottom-6 lg:-bottom-10 z-10 transition-transform duration-300 transform hover:-translate-y-12"
                 href=""
               >
                 Full Makeup
@@ -66,7 +66,7 @@ export default function Services() {
           <div className="grid grid-cols-2 gap-6 ">
             <div className="relative flex justify-center">
               <Link
-                className="w-[80%] bg-light-salmon-pink font-didact flex items-center py-8 px-4 absolute -bottom-10 z-10 transition-transform duration-300 transform hover:-translate-y-12"
+                className="w-[80%] bg-light-salmon-pink font-didact flex items-center py-3 px-2 lg:py-8 lg:px-4 absolute -bottom-6 lg:-bottom-10 z-10 transition-transform duration-300 transform hover:-translate-y-12"
                 href=""
               >
                 Eye Shadow
@@ -83,7 +83,7 @@ export default function Services() {
             </div>
             <div className="relative flex justify-center">
               <Link
-                className="w-[80%] bg-light-salmon-pink font-didact flex items-center py-8 px-4 absolute -bottom-10 z-10 transition-transform duration-300 transform hover:-translate-y-12"
+                className="w-[80%] bg-light-salmon-pink font-didact flex items-center py-3 px-2 lg:py-8 lg:px-4 absolute -bottom-6 lg:-bottom-10 z-10 transition-transform duration-300 transform hover:-translate-y-12"
                 href=""
               >
                 Face Makeup
@@ -104,7 +104,7 @@ export default function Services() {
           <div className="grid grid-cols-2 gap-6">
             <div className="relative flex justify-center">
               <Link
-                className="w-[80%] bg-light-salmon-pink font-didact flex items-center py-8 px-4 absolute -bottom-10 z-10 transition-transform duration-300 transform hover:-translate-y-12"
+                className="w-[80%] bg-light-salmon-pink font-didact flex items-center py-3 px-2 lg:py-8 lg:px-4 absolute -bottom-6 lg:-bottom-10 z-10 transition-transform duration-300 transform hover:-translate-y-12"
                 href=""
               >
                 Bridal Makeup
@@ -121,7 +121,7 @@ export default function Services() {
             </div>
             <div className="relative flex justify-center">
               <Link
-                className="w-[80%] bg-light-salmon-pink font-didact flex items-center py-8 px-4 absolute -bottom-10 z-10 transition-transform duration-300 transform hover:-translate-y-12"
+                className="w-[80%] bg-light-salmon-pink font-didact flex items-center py-3 px-2 lg:py-8 lg:px-4 absolute -bottom-6 lg:-bottom-10 z-10 transition-transform duration-300 transform hover:-translate-y-12"
                 href=""
               >
                 Eye Lashes
