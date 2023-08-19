@@ -45,7 +45,7 @@ export default function Footer() {
             </div>
             <div className="flex gap-6 mt-6 items-center">
               <TfiEmail className="text-light-salmon-pink" />
-              <p className="font-didact">email@example.com</p>
+              <p className="font-didact">Kiithyaian@gmail.com</p>
             </div>
             <div className="flex gap-6 mt-6 items-center">
               <TfiLocationPin className="text-light-salmon-pink" />
