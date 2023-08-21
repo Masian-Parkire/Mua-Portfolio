@@ -70,7 +70,10 @@ export default function Footer() {
             <div className="flex gap-[44px] mt-6">
               <p className="font-didact"> Sunday: </p>
               <Link href="tel:+254 706 766 020">
-                <p className="font-didact hover:text-light-salmon-pink"> By Call </p>
+                <p className="font-didact hover:text-light-salmon-pink">
+                  {" "}
+                  By Call{" "}
+                </p>
               </Link>
             </div>
           </div>
@@ -81,7 +84,8 @@ export default function Footer() {
         &#169; <span className="font-semibold">{currentYear}. </span>
         All rights Reserved by{" "}
         <Link
-          href="https://beatricewambuimbugua.vercel.app/" target="_blank"
+          href="https://beatricewambuimbugua.vercel.app/"
+          target="_blank"
           className="hover:underline hover:text-light-salmon-pink"
         >
           {" "}
