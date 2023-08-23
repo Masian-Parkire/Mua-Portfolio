@@ -34,7 +34,7 @@ export default function ContactUs() {
               Hi, it is me Kiithya, Unleash Your Beauty Dreams!{" "}
             </p>
             <p className="text-neutral-900 text-opacity-70 text-[17px] font-didact leading-7">
-              Contact Me for a Transformation That Speaks Louder Than Words.
+              Contact Me for a Transformation that Speaks Louder than Words.
             </p>
             <p className="text-neutral-900 text-opacity-70 text-[17px] font-didact leading-7">
               Let's Glam Together!

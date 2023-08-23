@@ -12,10 +12,7 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="en" className="light">
-    <head>
-    <script src="spotlight.bundle.js"></script>
-    </head>
+    <html lang="en" className="light scroll-smooth">
       <body className={inter.className}>
         <Providers>{children}</Providers>
         <script src="../path/to/flowbite/dist/flowbite.min.js"></script>
