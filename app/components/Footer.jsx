@@ -89,7 +89,7 @@ export default function Footer() {
           className="hover:underline hover:text-light-salmon-pink"
         >
           {" "}
-          Developer Wambui{" "}
+          Developer Masian{" "}
         </Link>
         <TbHeartFilled className="text-red-800 text-lg" />
       </p>
